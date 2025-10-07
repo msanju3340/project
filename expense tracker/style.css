@@ -132,12 +132,12 @@ h2{
 }
 
 #transaction-list::-webkit-scrollbar-thumb{
-    background-color: #bcc256;
+    background-color: #e2e7e9;
     border-radius: 4px;
 }
 
 #transaction-list::-webkit-scrollbar-thumb:hover{
-    background-color: #da1993;
+    background-color: #d2d2dce9;
 }
 
 .transaction{
@@ -167,15 +167,15 @@ h2{
 
 .transaction:hover{
     transform: translateX(4px);
-    box-shadow: 0 4px 12px #d36363;
+    box-shadow: 0 4px 12px #6ac1c7;
 }
 
 .transaction.income{
-    border-right-color:rgb(241, 45, 45); ;
+    border-right-color: rgb(23, 147, 48);;
 }
 
-.transaction.income{
-    border-right-color:  rgb(23, 147, 48);;
+.transaction.expense{
+    border-right-color:  rgb(241, 45, 45);;
 }
 
 .transaction .delete-btn{
