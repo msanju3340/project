@@ -80,7 +80,7 @@ function updateSummary() {
 function formatCurrency(number) {
   return new Intl.NumberFormat("en-US", {
     style: "currency",
-    currency: "USD",
+    currency: "inr",
   }).format(number);
 }
 
@@ -97,3 +97,4 @@ function removeTransaction(id) {
 // initial render
 updateTransactionList();
 updateSummary();
+
